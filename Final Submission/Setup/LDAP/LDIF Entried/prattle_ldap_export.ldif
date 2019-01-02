@@ -1,0 +1,370 @@
+version: 1
+
+dn: cn=subpoena,ou=users,o=Prattle
+cn: subpoena
+postalAddress: 123:0:0:0
+sn: null
+title: wiretap
+userpassword: {CRYPT}xLRIfcA6ZLXJE
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=rakesh,ou=users,o=Prattle
+cn: rakesh
+sn: null
+userpassword: {CRYPT}VO57MdxNiJBKs
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=robin,ou=users,o=Prattle
+cn: robin
+postalAddress: 127.0.8.5
+sn: null
+title: enduser
+userpassword: {CRYPT}6BIw.q5Wb.KHU
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=rok891,ou=users,o=Prattle
+cn: rok891
+sn: ne
+userpassword: {CRYPT}3szVuW4k7LouI
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=ram,ou=users,o=Prattle
+cn: ram
+postalAddress: 123:0:0:0
+sn: null
+title: enduser
+userpassword: {CRYPT}oqJsxJNQGxIQk
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: commonName=testgroup2,ou=Groups,o=Prattle
+commonName: testgroup2
+member : cn=oz,ou=users,o=Prattle
+objectclass : top
+objectclass : groupOfNames
+
+dn: cn=sou,ou=users,o=Prattle
+cn: sou
+sn: null
+userpassword: {CRYPT}CSVNUmIj1quDc
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=punj,ou=users,o=Prattle
+cn: punj
+postalAddress: 123:0:0:0
+sn: null
+title: enduser
+userpassword: {CRYPT}xzA0hO3bi3nA2
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=Sid,ou=users,o=Prattle
+cn: Sid
+postalAddress: 123:0:0:0
+sn: null
+title: enduser
+userpassword: {CRYPT}mEHd04pIEv.r2
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=subpeona,ou=users,o=Prattle
+cn: subpeona
+sn: null
+userpassword: {CRYPT}nIoSEbmQR7LHk
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: commonName=batmangroup,ou=Groups,o=Prattle
+commonName: batmangroup
+member : cn=batman,ou=users,o=Prattle
+member : cn=robin,ou=users,o=Prattle
+objectclass : top
+objectclass : groupOfNames
+
+dn: cn=superman,ou=users,o=Prattle
+cn: superman
+sn: null
+userpassword: {CRYPT}6xsVkSjH3LTH6
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=tester1,ou=users,o=Prattle
+cn: tester1
+sn: null
+userpassword: {CRYPT}JpgGCQe0zzFEQ
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=tyler,ou=users,o=Prattle
+cn: tyler
+sn: null
+userpassword: {CRYPT}YE4MjHf12.jt6
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=shweta,ou=users,o=Prattle
+cn: shweta
+postalAddress: 127.0.0.1
+sn: null
+userpassword: {CRYPT}2ABPC15ObUSCs
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: o=Prattle
+objectclass: extensibleObject
+objectclass: top
+objectclass: domain
+dc: Prattle
+o: Prattle
+
+dn: ou=users,o=Prattle
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+
+dn: cn=oz,ou=users,o=Prattle
+cn: oz
+postalAddress: 123:0:0:0
+sn: null
+title: enduser
+userpassword: {CRYPT}EzRRJC5AVyhwU
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: ou=Groups,o=Prattle
+objectClass: organizationalUnit
+objectClass: top
+ou: Groups
+
+dn: cn=rak,ou=users,o=Prattle
+cn: rak
+postalAddress: 127.0.0.1
+sn: null
+title: enduser
+userpassword: {CRYPT}k/jt.oiKKjEdo
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: commonName=DUMMYGROUP,ou=Groups,o=Prattle
+commonName: DUMMYGROUP
+member : cn=rak,ou=users,o=Prattle
+objectclass : top
+objectclass : groupOfNames
+
+dn: cn=ww,ou=users,o=Prattle
+cn: ww
+sn: null
+userpassword: {CRYPT}go8isJ5GPomV2
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=BAZ,ou=users,o=Prattle
+cn: BAZ
+postalAddress: 127.0.0.1
+sn: null
+userpassword: {CRYPT}xmkY1kdrADNTE
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=good bye,ou=users,o=Prattle
+cn: good bye
+sn: null
+userpassword: {CRYPT}KqF1Ts3ozg4v6
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: commonName=subpoenas,ou=Groups,o=Prattle
+commonName: subpoenas
+member: cn=subpoena,ou=users,o=Prattle
+objectclass : top
+objectclass : groupOfNames
+
+dn: cn=punja,ou=users,o=Prattle
+cn: punja
+postalAddress: 123:0:0:0
+sn: null
+title: enduser
+userpassword: {CRYPT}TpcUKGgNNXwc.
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: commonName=testGroup,ou=Groups,o=Prattle
+commonName: testGroup
+member : cn=punja,ou=users,o=Prattle
+member : cn=testUser,ou=users,o=Prattle
+member : cn=lex,ou=users,o=Prattle
+objectclass : top
+objectclass : groupOfNames
+
+dn: cn=dsjhfb,ou=users,o=Prattle
+cn: dsjhfb
+postalAddress: 123:0:0:0
+sn: null
+title: enduser
+userpassword: {CRYPT}a4P8TcgI1Jzyo
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=batman,ou=users,o=Prattle
+cn: batman
+postalAddress: 128.0.1.9
+sn: null
+title: enduser
+userpassword: {CRYPT}8NByb0D0d0X9U
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=fischer,ou=users,o=Prattle
+cn: fischer
+sn: null
+userpassword: {CRYPT}cWnVCtRipPvFM
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=robert,ou=users,o=Prattle
+cn: robert
+postalAddress: 127.0.9.1
+sn: null
+title: enduser
+userpassword: {CRYPT}fOpEORQswpi7M
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=AAZ,ou=users,o=Prattle
+cn: AAZ
+postalAddress: 127.0.0.1
+sn: null
+userpassword: {CRYPT}LOvaI4q3Z.SYU
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=rocky,ou=users,o=Prattle
+cn: rocky
+sn: Raiknnen
+userpassword: {CRYPT}Ix8wD2OW12vfw
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: commonName=group2,ou=Groups,o=Prattle
+commonName: group2
+member : cn=glen,ou=users,o=Prattle
+objectclass : top
+objectclass : groupOfNames
+
+dn: cn=lex,ou=users,o=Prattle
+cn: lex
+postalAddress: 127.0.0.1
+sn: null
+title: enduser
+userpassword: {CRYPT}/ARmPV2kfrHMM
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=rock,ou=users,o=Prattle
+cn: rock
+sn: ne
+userpassword: {CRYPT}VWsiL.r9G3Z2s
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=wonderwoman,ou=users,o=Prattle
+cn: wonderwoman
+sn: null
+userpassword: {CRYPT}cuEgalGrX0tSU
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=admin,ou=users,o=Prattle
+cn: admin
+postalAddress: 123:0:0:0
+sn: null
+title: admin
+userpassword: {CRYPT}Ehlxr9tAovdyA
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=childfilter,ou=users,o=Prattle
+cn: childfilter
+displayName: filter
+postalAddress: 123:0:0:0
+preferredLanguage: filter
+sn: null
+title: enduser
+userpassword: {CRYPT}a4P8TcgI1Jzyo
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
+dn: cn=tyler1,ou=users,o=Prattle
+cn: tyler1
+sn: null
+userpassword: {CRYPT}12ML0hS76aUEM
+objectclass : top
+objectclass : inetOrgPerson
+objectclass : person
+objectclass : organizationalPerson
+
